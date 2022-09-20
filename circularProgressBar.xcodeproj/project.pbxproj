@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43891C4B5313AF8B51A2F05F /* Pods_circularProgressBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C58E0CFC1F17241691F644 /* Pods_circularProgressBarTests.framework */; };
+		7A69F201EE13AC26ADB1BABB /* Pods_circularProgressBar_circularProgressBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5356453DC9A2E4B0853C950E /* Pods_circularProgressBar_circularProgressBarUITests.framework */; };
+		E2857C6D285B386A005428FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2857C6C285B386A005428FE /* AppDelegate.swift */; };
+		E2857C6F285B386A005428FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2857C6E285B386A005428FE /* SceneDelegate.swift */; };
+		E2857C71285B386A005428FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2857C70285B386A005428FE /* ViewController.swift */; };
+		E2857C74285B386B005428FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2857C72285B386B005428FE /* Main.storyboard */; };
+		E2857C77285B386B005428FE /* circularProgressBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2857C75285B386B005428FE /* circularProgressBar.xcdatamodeld */; };
+		E2857C79285B3872005428FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2857C78285B3872005428FE /* Assets.xcassets */; };
+		E2857C7C285B3872005428FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2857C7A285B3872005428FE /* LaunchScreen.storyboard */; };
+		E2857C87285B3873005428FE /* circularProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2857C86285B3873005428FE /* circularProgressBarTests.swift */; };
+		E2857C91285B3873005428FE /* circularProgressBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2857C90285B3873005428FE /* circularProgressBarUITests.swift */; };
+		E2857C93285B3873005428FE /* circularProgressBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2857C92285B3873005428FE /* circularProgressBarUITestsLaunchTests.swift */; };
+		FFC3DBBC93BE9459BE3C563C /* Pods_circularProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AA230FC821BFC7B26AC5F1 /* Pods_circularProgressBar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2857C83285B3873005428FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2857C61285B386A005428FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2857C68285B386A005428FE;
+			remoteInfo = circularProgressBar;
+		};
+		E2857C8D285B3873005428FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2857C61285B386A005428FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2857C68285B386A005428FE;
+			remoteInfo = circularProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BD4D1161DB2FA45A372E9A5 /* Pods-circularProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circularProgressBar.debug.xcconfig"; path = "Target Support Files/Pods-circularProgressBar/Pods-circularProgressBar.debug.xcconfig"; sourceTree = "<group>"; };
+		3A64377DF93F83F15DB54B40 /* Pods-circularProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circularProgressBar.release.xcconfig"; path = "Target Support Files/Pods-circularProgressBar/Pods-circularProgressBar.release.xcconfig"; sourceTree = "<group>"; };
+		3D9DF5D52FF7FDAC5B5BD17F /* Pods-circularProgressBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circularProgressBarTests.debug.xcconfig"; path = "Target Support Files/Pods-circularProgressBarTests/Pods-circularProgressBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51C58E0CFC1F17241691F644 /* Pods_circularProgressBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_circularProgressBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5356453DC9A2E4B0853C950E /* Pods_circularProgressBar_circularProgressBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_circularProgressBar_circularProgressBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79846313CE80E0115CDDEC5F /* Pods-circularProgressBar-circularProgressBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circularProgressBar-circularProgressBarUITests.debug.xcconfig"; path = "Target Support Files/Pods-circularProgressBar-circularProgressBarUITests/Pods-circularProgressBar-circularProgressBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5AA230FC821BFC7B26AC5F1 /* Pods_circularProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_circularProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A57B651A645B9F5CA53126 /* Pods-circularProgressBar-circularProgressBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circularProgressBar-circularProgressBarUITests.release.xcconfig"; path = "Target Support Files/Pods-circularProgressBar-circularProgressBarUITests/Pods-circularProgressBar-circularProgressBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E2857C69285B386A005428FE /* circularProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = circularProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2857C6C285B386A005428FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2857C6E285B386A005428FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E2857C70285B386A005428FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2857C73285B386B005428FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2857C76285B386B005428FE /* circularProgressBar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = circularProgressBar.xcdatamodel; sourceTree = "<group>"; };
+		E2857C78285B3872005428FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2857C7B285B3872005428FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2857C7D285B3872005428FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2857C82285B3873005428FE /* circularProgressBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = circularProgressBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2857C86285B3873005428FE /* circularProgressBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circularProgressBarTests.swift; sourceTree = "<group>"; };
+		E2857C8C285B3873005428FE /* circularProgressBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = circularProgressBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2857C90285B3873005428FE /* circularProgressBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circularProgressBarUITests.swift; sourceTree = "<group>"; };
+		E2857C92285B3873005428FE /* circularProgressBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circularProgressBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5B1C9AE60EEDAC4F5DFBF5C /* Pods-circularProgressBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circularProgressBarTests.release.xcconfig"; path = "Target Support Files/Pods-circularProgressBarTests/Pods-circularProgressBarTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2857C66285B386A005428FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC3DBBC93BE9459BE3C563C /* Pods_circularProgressBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2857C7F285B3873005428FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43891C4B5313AF8B51A2F05F /* Pods_circularProgressBarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2857C89285B3873005428FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A69F201EE13AC26ADB1BABB /* Pods_circularProgressBar_circularProgressBarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B8854B341B4750C86A3E0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA230FC821BFC7B26AC5F1 /* Pods_circularProgressBar.framework */,
+				5356453DC9A2E4B0853C950E /* Pods_circularProgressBar_circularProgressBarUITests.framework */,
+				51C58E0CFC1F17241691F644 /* Pods_circularProgressBarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		924E2FA358DCD82EA909F805 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BD4D1161DB2FA45A372E9A5 /* Pods-circularProgressBar.debug.xcconfig */,
+				3A64377DF93F83F15DB54B40 /* Pods-circularProgressBar.release.xcconfig */,
+				79846313CE80E0115CDDEC5F /* Pods-circularProgressBar-circularProgressBarUITests.debug.xcconfig */,
+				D1A57B651A645B9F5CA53126 /* Pods-circularProgressBar-circularProgressBarUITests.release.xcconfig */,
+				3D9DF5D52FF7FDAC5B5BD17F /* Pods-circularProgressBarTests.debug.xcconfig */,
+				F5B1C9AE60EEDAC4F5DFBF5C /* Pods-circularProgressBarTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2857C60285B386A005428FE = {
+			isa = PBXGroup;
+			children = (
+				E2857C6B285B386A005428FE /* circularProgressBar */,
+				E2857C85285B3873005428FE /* circularProgressBarTests */,
+				E2857C8F285B3873005428FE /* circularProgressBarUITests */,
+				E2857C6A285B386A005428FE /* Products */,
+				924E2FA358DCD82EA909F805 /* Pods */,
+				18B8854B341B4750C86A3E0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2857C6A285B386A005428FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2857C69285B386A005428FE /* circularProgressBar.app */,
+				E2857C82285B3873005428FE /* circularProgressBarTests.xctest */,
+				E2857C8C285B3873005428FE /* circularProgressBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2857C6B285B386A005428FE /* circularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				E2857C6C285B386A005428FE /* AppDelegate.swift */,
+				E2857C6E285B386A005428FE /* SceneDelegate.swift */,
+				E2857C70285B386A005428FE /* ViewController.swift */,
+				E2857C72285B386B005428FE /* Main.storyboard */,
+				E2857C78285B3872005428FE /* Assets.xcassets */,
+				E2857C7A285B3872005428FE /* LaunchScreen.storyboard */,
+				E2857C7D285B3872005428FE /* Info.plist */,
+				E2857C75285B386B005428FE /* circularProgressBar.xcdatamodeld */,
+			);
+			path = circularProgressBar;
+			sourceTree = "<group>";
+		};
+		E2857C85285B3873005428FE /* circularProgressBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2857C86285B3873005428FE /* circularProgressBarTests.swift */,
+			);
+			path = circularProgressBarTests;
+			sourceTree = "<group>";
+		};
+		E2857C8F285B3873005428FE /* circularProgressBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2857C90285B3873005428FE /* circularProgressBarUITests.swift */,
+				E2857C92285B3873005428FE /* circularProgressBarUITestsLaunchTests.swift */,
+			);
+			path = circularProgressBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2857C68285B386A005428FE /* circularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2857C96285B3873005428FE /* Build configuration list for PBXNativeTarget "circularProgressBar" */;
+			buildPhases = (
+				8E307B6004F37805BA6B0C8B /* [CP] Check Pods Manifest.lock */,
+				E2857C65285B386A005428FE /* Sources */,
+				E2857C66285B386A005428FE /* Frameworks */,
+				E2857C67285B386A005428FE /* Resources */,
+				C2EEA4F127C37B1128F8B1E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = circularProgressBar;
+			productName = circularProgressBar;
+			productReference = E2857C69285B386A005428FE /* circularProgressBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2857C81285B3873005428FE /* circularProgressBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2857C99285B3873005428FE /* Build configuration list for PBXNativeTarget "circularProgressBarTests" */;
+			buildPhases = (
+				FC852C8D206761813C8D3BDE /* [CP] Check Pods Manifest.lock */,
+				E2857C7E285B3873005428FE /* Sources */,
+				E2857C7F285B3873005428FE /* Frameworks */,
+				E2857C80285B3873005428FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2857C84285B3873005428FE /* PBXTargetDependency */,
+			);
+			name = circularProgressBarTests;
+			productName = circularProgressBarTests;
+			productReference = E2857C82285B3873005428FE /* circularProgressBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2857C8B285B3873005428FE /* circularProgressBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2857C9C285B3873005428FE /* Build configuration list for PBXNativeTarget "circularProgressBarUITests" */;
+			buildPhases = (
+				86664EA06086D861E41830A3 /* [CP] Check Pods Manifest.lock */,
+				E2857C88285B3873005428FE /* Sources */,
+				E2857C89285B3873005428FE /* Frameworks */,
+				E2857C8A285B3873005428FE /* Resources */,
+				D685659783A7CEE26A887F2B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2857C8E285B3873005428FE /* PBXTargetDependency */,
+			);
+			name = circularProgressBarUITests;
+			productName = circularProgressBarUITests;
+			productReference = E2857C8C285B3873005428FE /* circularProgressBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2857C61285B386A005428FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					E2857C68285B386A005428FE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					E2857C81285B3873005428FE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = E2857C68285B386A005428FE;
+					};
+					E2857C8B285B3873005428FE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = E2857C68285B386A005428FE;
+					};
+				};
+			};
+			buildConfigurationList = E2857C64285B386A005428FE /* Build configuration list for PBXProject "circularProgressBar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2857C60285B386A005428FE;
+			productRefGroup = E2857C6A285B386A005428FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2857C68285B386A005428FE /* circularProgressBar */,
+				E2857C81285B3873005428FE /* circularProgressBarTests */,
+				E2857C8B285B3873005428FE /* circularProgressBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2857C67285B386A005428FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2857C7C285B3872005428FE /* LaunchScreen.storyboard in Resources */,
+				E2857C79285B3872005428FE /* Assets.xcassets in Resources */,
+				E2857C74285B386B005428FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2857C80285B3873005428FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2857C8A285B3873005428FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86664EA06086D861E41830A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-circularProgressBar-circularProgressBarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E307B6004F37805BA6B0C8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-circularProgressBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2EEA4F127C37B1128F8B1E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-circularProgressBar/Pods-circularProgressBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-circularProgressBar/Pods-circularProgressBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-circularProgressBar/Pods-circularProgressBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D685659783A7CEE26A887F2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-circularProgressBar-circularProgressBarUITests/Pods-circularProgressBar-circularProgressBarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-circularProgressBar-circularProgressBarUITests/Pods-circularProgressBar-circularProgressBarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-circularProgressBar-circularProgressBarUITests/Pods-circularProgressBar-circularProgressBarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC852C8D206761813C8D3BDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-circularProgressBarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2857C65285B386A005428FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2857C71285B386A005428FE /* ViewController.swift in Sources */,
+				E2857C6D285B386A005428FE /* AppDelegate.swift in Sources */,
+				E2857C77285B386B005428FE /* circularProgressBar.xcdatamodeld in Sources */,
+				E2857C6F285B386A005428FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2857C7E285B3873005428FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2857C87285B3873005428FE /* circularProgressBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2857C88285B3873005428FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2857C93285B3873005428FE /* circularProgressBarUITestsLaunchTests.swift in Sources */,
+				E2857C91285B3873005428FE /* circularProgressBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2857C84285B3873005428FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2857C68285B386A005428FE /* circularProgressBar */;
+			targetProxy = E2857C83285B3873005428FE /* PBXContainerItemProxy */;
+		};
+		E2857C8E285B3873005428FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2857C68285B386A005428FE /* circularProgressBar */;
+			targetProxy = E2857C8D285B3873005428FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2857C72285B386B005428FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2857C73285B386B005428FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2857C7A285B3872005428FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2857C7B285B3872005428FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2857C94285B3873005428FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2857C95285B3873005428FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2857C97285B3873005428FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD4D1161DB2FA45A372E9A5 /* Pods-circularProgressBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = circularProgressBar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nadia.circularProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2857C98285B3873005428FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A64377DF93F83F15DB54B40 /* Pods-circularProgressBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = circularProgressBar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nadia.circularProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2857C9A285B3873005428FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9DF5D52FF7FDAC5B5BD17F /* Pods-circularProgressBarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nadia.circularProgressBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/circularProgressBar.app/circularProgressBar";
+			};
+			name = Debug;
+		};
+		E2857C9B285B3873005428FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B1C9AE60EEDAC4F5DFBF5C /* Pods-circularProgressBarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nadia.circularProgressBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/circularProgressBar.app/circularProgressBar";
+			};
+			name = Release;
+		};
+		E2857C9D285B3873005428FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79846313CE80E0115CDDEC5F /* Pods-circularProgressBar-circularProgressBarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nadia.circularProgressBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = circularProgressBar;
+			};
+			name = Debug;
+		};
+		E2857C9E285B3873005428FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A57B651A645B9F5CA53126 /* Pods-circularProgressBar-circularProgressBarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nadia.circularProgressBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = circularProgressBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2857C64285B386A005428FE /* Build configuration list for PBXProject "circularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2857C94285B3873005428FE /* Debug */,
+				E2857C95285B3873005428FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2857C96285B3873005428FE /* Build configuration list for PBXNativeTarget "circularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2857C97285B3873005428FE /* Debug */,
+				E2857C98285B3873005428FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2857C99285B3873005428FE /* Build configuration list for PBXNativeTarget "circularProgressBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2857C9A285B3873005428FE /* Debug */,
+				E2857C9B285B3873005428FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2857C9C285B3873005428FE /* Build configuration list for PBXNativeTarget "circularProgressBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2857C9D285B3873005428FE /* Debug */,
+				E2857C9E285B3873005428FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2857C75285B386B005428FE /* circularProgressBar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2857C76285B386B005428FE /* circularProgressBar.xcdatamodel */,
+			);
+			currentVersion = E2857C76285B386B005428FE /* circularProgressBar.xcdatamodel */;
+			path = circularProgressBar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2857C61285B386A005428FE /* Project object */;
+}
